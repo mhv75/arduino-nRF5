@@ -65,7 +65,7 @@ void RTC1_IRQHandler(void)
     (void)dummy;
 #endif
 
-  overflows = (overflows + 1) & 0xff;
+  overflows = (overflows + 1);
 }
 
 #ifdef __cplusplus
