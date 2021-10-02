@@ -3,20 +3,20 @@
     {
       "name": "nrf5_ATCwatch",
       "maintainer": "mhv75",
-      "websiteURL": "https://github.com/mhv75/arduino-nRF5",
+      "websiteURL": "https://github.com/mhv75/arduino-nRF5_ATCwatch",
       "email": "Arduino.nrf5.ATCwatch@gmail.com",
       "help": {
-        "online": "https://github.com/mhv75/arduino-nRF5/issues"
+        "online": "https://github.com/mhv75/arduino-nRF5_ATCwatch/issues"
       },
       "platforms": [
        
         {
-          "name": "Nordic Semiconductor nRF5 Boards & ATCwatch",
+          "name": "Nordic Semiconductor nRF5 Boards ATCwatch",
           "architecture": "nRF5",
           "version": "0.6.0",
           "category": "Contributed",
           "help": {
-            "online": "https://github.com/mhv75/arduino-nRF5/issues"
+            "online": "https://github.com/mhv75/arduino-nRF5_ATCwatch/issues"
           },
           "url": "https://github.com/mhv75/arduino-nRF5/archive/0.1.0.tar.gz",
           "archiveFileName": "arduino-nRF5_ATCwatch-0.1.0.tar.gz",
