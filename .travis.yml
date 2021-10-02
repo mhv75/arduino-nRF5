@@ -18,6 +18,5 @@ install:
   - mkdir -p $HOME/Arduino/hardware/nrf5_ATCwatch
   - ln -s $PWD $HOME/Arduino/hardware/nrf5_ATCwatch/nRF5
 script:
-
   - buildExampleSketch nrf5_ATCwatch:nRF5:D6Emulator 1.DSD6
   - buildExampleSketch nrf5_ATCwatch:nRF5:HeartRateTest 1.DSD6
