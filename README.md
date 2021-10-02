@@ -1,6 +1,6 @@
 # Arduino Core for Nordic Semiconductor nRF5 based boards 
 
-This package is based on the excellent V6.0.0 version by [@SandeepMistry](https://github.com/adafruit/Adafruit_nRF52_nrfutil) adapted to ATCWatch by [@atc1441](https://github.com/atc1441) 
+This package is based on the excellent V6.0.0 by [@SandeepMistry](https://github.com/adafruit/Adafruit_nRF52_nrfutil) adapted to ATCWatch by [@atc1441](https://github.com/atc1441) 
 
 
 Program your existing peripheral with a [Nordic Semiconductor](https://www.nordicsemi.com) nRF51 or nRF52 board using the [Arduino](https://www.arduino.cc) IDE.
