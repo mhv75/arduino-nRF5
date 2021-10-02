@@ -6,6 +6,12 @@ link to portable file D6Arduino.rar on ATCnetz.de
 
 which libraries to install
 
+- bleperipheral
+- hrs3300 arduino-library-master
+- lv-arduino-master
+- sdFat-master
+- Time
+
 which files to install
 
 for Mac how to work around portable.
