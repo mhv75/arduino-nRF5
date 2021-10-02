@@ -115,7 +115,7 @@ The SD consumes ~5k of Ram + some extra based on actual BLE configuration.
   * Linux: ```~/Arduino```
   * Windows: ```~/Documents/Arduino```
  2. Create the following directories: ```tools/nRF5FlashSoftDevice/tool/```
- 3. Download [nRF5FlashSoftDevice.jar](https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/nRF5FlashSoftDevice.jar) to ```<SKETCHBOOK>/tools/nRF5FlashSoftDevice/tool/```
+ 3. Download [nRF5FlashSoftDevice.jar](https://github.com/mhv75/arduino-nRF5/releases/download/tools/nRF5FlashSoftDevice.jar) to ```<SKETCHBOOK>/tools/nRF5FlashSoftDevice/tool/```
  4. Restart the Arduino IDE
  5. Select your nRF board from the Tools -> Board menu
  6. Select a SoftDevice from the Tools -> "SoftDevice: " menu
@@ -133,7 +133,7 @@ The SD consumes ~5k of Ram + some extra based on actual BLE configuration.
   * Linux: ```~/Arduino```
   * Windows: ```~/Documents/Arduino```
  3. Create a folder named ```hardware```, if it does not exist, and change directories to it
- 4. Clone this repo: ```git clone https://github.com/mhv75/arduino-nRF5.git mhv75/nRF5```
+ 4. Clone this repo: ```gh repo clone mhv75/arduino-nRF5```
  5. Restart the Arduino IDE
 
 ## BLE
