@@ -16,11 +16,12 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 name=Nordic Semiconductor nRF5 Boards
-version=0.7.0
+version=0.4.0
 
 # Compile variables
 # -----------------
 
+compiler.libraries.ldflags=
 compiler.warning_flags=-w
 compiler.warning_flags.none=-w
 compiler.warning_flags.default=
@@ -97,6 +98,9 @@ recipe.output.save_file_bin={build.project_name}.save.bin
 ## Save hex
 recipe.output.tmp_file_hex={build.project_name}.hex
 recipe.output.save_file_hex={build.project_name}.save.hex
+
+## Create dfu package zip file
+recipe.objcopy.zip.pattern="{runtime.ide.path}/packages/nRF5_ATCwatch/tools/adafruit-nrfutil/adafruit-nrfutil" dfu genpkg --application-version 65535 --application "{build.path}/{build.project_name}.hex" "{runtime.ide.path}/{build.project_name}.zip"
 
 ## Compute size
 recipe.size.pattern="{compiler.path}{compiler.size.cmd}" -A "{build.path}/{build.project_name}.elf"

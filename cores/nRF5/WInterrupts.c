@@ -24,7 +24,7 @@
 
 #include <string.h>
 
-#if defined(NRF52_SERIES)
+#ifdef NRF52
 #define NUMBER_OF_GPIO_TE 8
 #else
 #define NUMBER_OF_GPIO_TE 4
@@ -42,7 +42,7 @@ static void __initialize()
 
   NVIC_DisableIRQ(GPIOTE_IRQn);
   NVIC_ClearPendingIRQ(GPIOTE_IRQn);
-  NVIC_SetPriority(GPIOTE_IRQn, 2);
+  NVIC_SetPriority(GPIOTE_IRQn, 1);
   NVIC_EnableIRQ(GPIOTE_IRQn);
 }
 
