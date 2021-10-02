@@ -59,7 +59,7 @@ Support the open collective with a monthly donation and help them continue their
  2. Start the Arduino IDE
  3. Go into Preferences
  4. Add ```https://mhv75.github.io/arduino-nRF5/package_nRF5_boards_index.json``` as an "Additional Board Manager URL"
- 5. Open the Boards Manager from the Tools -> Board menu and install "Nordic Semiconductor nRF5 Boards"
+ 5. Open the Boards Manager from the Tools -> Board menu and install "Nordic Semiconductor nRF5 ATCwatch Boards"
  6. Select your nRF5 board from the Tools -> Board menu
 
 __NOTE:__ During installation it takes the Arduino IDE a few minutes to extract the tools after they have been downloaded, please be patient.
@@ -115,7 +115,7 @@ The SD consumes ~5k of Ram + some extra based on actual BLE configuration.
   * Linux: ```~/Arduino```
   * Windows: ```~/Documents/Arduino```
  2. Create the following directories: ```tools/nRF5FlashSoftDevice/tool/```
- 3. Download [nRF5FlashSoftDevice.jar](https://github.com/mhv75/arduino-nRF5/releases/download/tools/nRF5FlashSoftDevice.jar) to ```<SKETCHBOOK>/tools/nRF5FlashSoftDevice/tool/```
+ 3. Download [nRF5FlashSoftDevice.jar](https://github.com/mhv75/arduino-nRF5_ATCwatch/releases/download/tools/nRF5FlashSoftDevice.jar) to ```<SKETCHBOOK>/tools/nRF5FlashSoftDevice/tool/```
  4. Restart the Arduino IDE
  5. Select your nRF board from the Tools -> Board menu
  6. Select a SoftDevice from the Tools -> "SoftDevice: " menu
