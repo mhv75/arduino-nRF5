@@ -1,4 +1,4 @@
-package com.github.sandeepmistry.arduino.nRF5;
+package com.github.mhv75.arduino.nRF5_ATCwatch;
 
 import cc.arduino.packages.Uploader;
 import cc.arduino.packages.uploaders.SerialUploader;
@@ -49,7 +49,7 @@ public class nRF5FlashSoftDevice implements Tool {
 
   public void run() {
     if (!PreferencesData.get("target_platform").equals("nRF5")) {
-      editor.statusError(getMenuTitle() + " is only supported on 'Nordic Semiconductor nRF5 Boards' boards!");
+      editor.statusError(getMenuTitle() + " is only supported on 'Nordic Semiconductor nRF5 ATCwatch Boards' boards!");
       return;
     }
 
