@@ -1,13 +1,12 @@
-# Arduino Core for Nordic Semiconductor nRF5 based boards
+# Arduino Core for Nordic Semiconductor nRF5 based boards based on the excellent [![sandeepmistry package adapted](https://github.com/adafruit/Adafruit_nRF52_nrfutil) to ATCWatch by [![@atc1441] (https://github.com/atc1441)
 
-[![Build Status](https://travis-ci.org/sandeepmistry/arduino-nRF5.svg?branch=master)](https://travis-ci.org/sandeepmistry/arduino-nRF5) [![OpenCollective](https://opencollective.com/arduino-nRF5/backers/badge.svg)](#backers)
+[![Build Status of Sandeep Mistry Arduino nRF5](https://travis-ci.org/sandeepmistry/arduino-nRF5.svg?branch=master)](https://travis-ci.org/sandeepmistry/arduino-nRF5) [![OpenCollective](https://opencollective.com/arduino-nRF5/backers/badge.svg)](#backers)
 [![OpenCollective](https://opencollective.com/arduino-nRF5/sponsors/badge.svg)](#sponsors)
 
 
-Program your [Nordic Semiconductor](https://www.nordicsemi.com) nRF51 or nRF52 board using the [Arduino](https://www.arduino.cc) IDE.
+Program your peripheral with a [Nordic Semiconductor](https://www.nordicsemi.com) nRF51 or nRF52 board using the [Arduino](https://www.arduino.cc) IDE.
 
-Does not require a custom bootloader on the device.
-
+Writing custom OS for your existing peripheral with an nRF52 board has some prerequisites. If you happended to stumble onto this repository and wonder what this is all about I would like to refer you to [![this repository]] (https://github.com/atc1441/ATCwatch)
 ## Backers
 
 Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/arduino-nRF5#backer)]
