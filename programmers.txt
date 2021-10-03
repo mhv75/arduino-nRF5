@@ -24,5 +24,5 @@ blackmagicprobe.communication=USB
 blackmagicprobe.protocol=
 blackmagicprobe.program.protocol=
 blackmagicprobe.program.tool=blackmagicprobe
-blackmagicprobe.bootloader.tool=sandeepmistry:blackmagicprobe
+blackmagicprobe.bootloader.tool=nRF5_ATCwatch:blackmagicprobe
 blackmagicprobe.program.extra_params=;

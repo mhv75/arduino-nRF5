@@ -1,6 +1,6 @@
 # Arduino Core for Nordic Semiconductor nRF5 based boards 
 
-This package is based on the excellent V6.0.0 by [@SandeepMistry](https://github.com/adafruit/Adafruit_nRF52_nrfutil) adapted to ATCWatch by [@atc1441](https://github.com/atc1441) 
+This package is based on the excellent V6.0.0 by [@SandeepMistry](https://github.com/sandeepmistry) adapted to ATCWatch by [@atc1441](https://github.com/atc1441) 
 
 
 Program your existing peripheral with a [Nordic Semiconductor](https://www.nordicsemi.com) nRF51 or nRF52 board using the [Arduino](https://www.arduino.cc) IDE.
@@ -133,7 +133,7 @@ The SD consumes ~5k of Ram + some extra based on actual BLE configuration.
   * Linux: ```~/Arduino```
   * Windows: ```~/Documents/Arduino```
  3. Create a folder named ```hardware```, if it does not exist, and change directories to it
- 4. Clone this repo: ```gh repo clone mhv75/arduino-nRF5```
+ 4. Clone this repo: ```gh repo clone mhv75/arduino-nRF5_ATCwatch```
  5. Restart the Arduino IDE
 
 ## BLE
@@ -168,4 +168,4 @@ If you plan on making a dfu package you will have to ensure that [adafruit-nrfut
 
 Follow the instructions in the repository to install from source and create a selfcontained binary.
 
-First create a folder named "adafruit-nrfutil" in the "tools" folder under nRF5_ATCwatch. Then move/copy this selfcontained binary to nRF5_ATCwatch/tools/adafruit-nrfutil/.
+First create a folder named `adafruit-nrfutil` in the "tools" folder under `nRF5_ATCwatch`. Then move/copy this selfcontained binary to `nRF5_ATCwatch/tools/adafruit-nrfutil/`.

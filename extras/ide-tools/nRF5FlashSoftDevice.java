@@ -82,7 +82,7 @@ public class nRF5FlashSoftDevice implements Tool {
     }
 
     String programmer = PreferencesData.get("programmer");
-    if (programmer == null || !programmer.startsWith("sandeepmistry:")) {
+    if (programmer == null || !programmer.startsWith("nRF52_ATCwatch:")) {
       editor.statusError("Unsupported programmer!");
       return;
     }

@@ -22,7 +22,7 @@ menu.lfclk=Low Frequency Clock
 menu.board_variant=Board Variant
 
 
-# nRF52 ATC1441 variants
+# nRF5 ATC1441 variants
 
 ###################
 
