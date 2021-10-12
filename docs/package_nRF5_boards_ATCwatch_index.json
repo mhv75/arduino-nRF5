@@ -10,7 +10,7 @@
       },
       "platforms": [   
         {
-          "name": "ATCwatch NRF5 boards",
+          "name": "ATCwatch nRF5 boards",
           "architecture": "nRF5",
           "version": "0.1.0",
           "category": "Contributed",
