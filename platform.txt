@@ -16,7 +16,7 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 name=Nordic Semiconductor nRF5 ATCwatch Boards
-version=0.4.0
+version=0.1.0
 
 # Compile variables
 # -----------------
