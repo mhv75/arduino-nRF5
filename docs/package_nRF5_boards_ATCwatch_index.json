@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "nrf5_ATCwatch",
+      "name": "nRF5_ATCwatch",
       "maintainer": "mhv75",
       "websiteURL": "https://github.com/mhv75/arduino-nRF5_ATCwatch",
       "email": "Arduino.nrf5.ATCwatch@gmail.com",
@@ -13,12 +13,12 @@
         {
           "name": "Nordic Semiconductor nRF5 Boards ATCwatch",
           "architecture": "nRF5",
-          "version": "0.6.0",
+          "version": "0.1.0",
           "category": "Contributed",
           "help": {
             "online": "https://github.com/mhv75/arduino-nRF5_ATCwatch/issues"
           },
-          "url": "https://github.com/mhv75/arduino-nRF5/archive/0.1.0.tar.gz",
+          "url": "https://github.com/mhv75/arduino-nRF5_ATCwatch/archive/0.1.0.tar.gz",
           "archiveFileName": "arduino-nRF5_ATCwatch-0.1.0.tar.gz",
           "checksum": "MD5:e3ebc3e6e6c04a0f7e001b28a8ed510a",
           "size": "600725",
@@ -27,36 +27,23 @@
             {"name": "P8Watch"},
             {"name": "P22Watch"},
             {"name": "nrf51bare"},
-            {"name": "BBC micro:bit"},
-            {"name": "Bluz DK"},
-            {"name": "Calliope mini"},
-            {"name": "Electronut labs bluey"},
-            {"name": "Electronut labs hackaBLE"},
             {"name": "Generic nRF51822"},
             {"name": "Generic nRF52823"},
-            {"name": "OSHChip"},
-            {"name": "ng-beacon"},
             {"name": "nRF51 Dongle"},
             {"name": "nRF51822 Development Kit"},
             {"name": "nRF52 DK"},
             {"name": "Nordic Beacon Kit"},
-            {"name": "RedBear BLE Nano 2"},
-            {"name": "RedBear Blend 2"},
-            {"name": "RedBearLab BLE Nano"},
-            {"name": "RedBearLab nRF51822"},
-            {"name": "Sino:bit"},
-            {"name": "Taida Century nRF52 mini board"},
             {"name": "TinyBLE"},
             {"name": "Waveshare BLE400"}
           ],
           "toolsDependencies": [
             {
-              "packager": "nrf5_ATCwatch",
+              "packager": "sandeepmistry",
               "name": "gcc-arm-none-eabi",
               "version": "5_2-2015q4"
             },
             {
-              "packager": "nrf5_ATCwatch",
+              "packager": "sandeepmistry",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
             }

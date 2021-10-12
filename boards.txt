@@ -26,7 +26,7 @@ menu.board_variant=Board Variant
 
 ###################
 
-p22watch.name=DaFitWatch Bootloader23
+p22watch.name=p22Watch Bootloader23
 
 p22watch.upload.tool=sandeepmistry:openocd
 p22watch.upload.target=nrf52
@@ -36,9 +36,9 @@ p22watch.bootloader.tool=sandeepmistry:openocd
 
 p22watch.build.mcu=cortex-m4
 p22watch.build.f_cpu=16000000
-p22watch.build.board=DaPinout
+p22watch.build.board=ATCwatch_Pinout
 p22watch.build.core=nRF5
-p22watch.build.variant=DaPinout
+p22watch.build.variant=ATCwatch_Pinout
 p22watch.build.variant_system_lib=
 p22watch.build.extra_flags=-DNRF52
 p22watch.build.float_flags=-mfloat-abi=hard -mfpu=fpv4-sp-d16 -DCONFIG_NFCT_PINS_AS_GPIOS -DUSE_LFRC -DNRF52 -DS132 -DNRF51_S132
@@ -49,14 +49,14 @@ p22watch.menu.softdevice.stockFW.flashVariantFile=sd.hex
 p22watch.menu.softdevice.stockFW.softdeviceversion=2.0.1
 p22watch.menu.softdevice.stockFW.softdevice=S132
 p22watch.menu.softdevice.onlySoftDevice=Back To Stock Firmware
-p22watch.menu.softdevice.onlySoftDevice.flashVariantFile=flashP8.bin
+p22watch.menu.softdevice.onlySoftDevice.flashVariantFile=flashP22.bin
 p22watch.menu.softdevice.onlySoftDevice.softdeviceversion=2.0.1
 p22watch.menu.softdevice.onlySoftDevice.softdevice=S132
 
 
 ###################
 
-p8watch.name=DaFitWatch Bootloader23
+p8watch.name=p8Watch Bootloader23
 
 p8watch.upload.tool=sandeepmistry:openocd
 p8watch.upload.target=nrf52
@@ -66,9 +66,9 @@ p8watch.bootloader.tool=sandeepmistry:openocd
 
 p8watch.build.mcu=cortex-m4
 p8watch.build.f_cpu=16000000
-p8watch.build.board=DaPinout
+p8watch.build.board=ATCwatch_Pinout
 p8watch.build.core=nRF5
-p8watch.build.variant=DaPinout
+p8watch.build.variant=ATCwatch_Pinout
 p8watch.build.variant_system_lib=
 p8watch.build.extra_flags=-DNRF52
 p8watch.build.float_flags=-mfloat-abi=hard -mfpu=fpv4-sp-d16 -DCONFIG_NFCT_PINS_AS_GPIOS -DUSE_LFRC -DNRF52 -DS132 -DNRF51_S132
