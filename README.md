@@ -33,12 +33,9 @@ Support the open collective with a monthly donation and help them continue their
  * [nrf51bare](https://)
  * [Plain nRF51 MCU](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822)
   * Nordic Semiconductor  [nRF51822 Development Kit](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822-Development-Kit) + [nRF51422 Development Kit](https://www.nordicsemi.com/eng/Products/ANT/nRF51422-Development-Kit)
- * Nordic SemiconductornRF51x22 Development Kits (PCA1000x)
  * [Nordic Semiconductor NRF51 Smart Beacon Kit](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822-Bluetooth-Smart-Beacon-Kit)
  * [Nordic Semiconductor NRF51 Dongle](http://www.nordicsemi.com/eng/Products/nRF51-Dongle)
- * [Waveshare BLE400](http://www.waveshare.com/wiki/BLE400)
- * [ng-beacon](https://github.com/urish/ng-beacon)
- * [TinyBLE](https://www.seeedstudio.com/Seeed-Tiny-BLE-BLE-%2B-6DOF-Mbed-Platform-p-2268.html)
+
  
 
 ## Installing
