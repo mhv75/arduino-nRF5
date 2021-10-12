@@ -26,14 +26,12 @@ menu.board_variant=Board Variant
 
 ###################
 
-p22watch.name=p22Watch Bootloader23
+p22watch.name=p22watch
 
 p22watch.upload.tool=sandeepmistry:openocd
 p22watch.upload.target=nrf52
 p22watch.upload.maximum_size=376800
-
 p22watch.bootloader.tool=sandeepmistry:openocd
-
 p22watch.build.mcu=cortex-m4
 p22watch.build.f_cpu=16000000
 p22watch.build.board=ATCwatch_Pinout
@@ -56,7 +54,7 @@ p22watch.menu.softdevice.onlySoftDevice.softdevice=S132
 
 ###################
 
-p8watch.name=p8Watch Bootloader23
+p8watch.name=p8watch
 
 p8watch.upload.tool=sandeepmistry:openocd
 p8watch.upload.target=nrf52

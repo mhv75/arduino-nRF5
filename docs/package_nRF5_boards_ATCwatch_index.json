@@ -18,14 +18,14 @@
           "help": {
             "online": "https://github.com/mhv75/arduino-nRF5_ATCwatch/issues"
           },
-          "url": "https://github.com/mhv75/arduino-nRF5_ATCwatch/archive/0.1.0.tar.gz",
-          "archiveFileName": "arduino-nRF5_ATCwatch-0.1.0.tar.gz",
-          "checksum": "MD5:e3ebc3e6e6c04a0f7e001b28a8ed510a",
-          "size": "600725",
+          "url": "https://github.com/mhv75/arduino-nRF5_ATCwatch/archive/0.1.0.zip",
+          "archiveFileName": "arduino-nRF5_ATCwatch-0.1.0.zip",
+          "checksum": "MD5:c27141aba7e9829d63f5016bfa8057cf",
+          "size": "743223",
           "boards": [
             {"name": "DSD6"},
-            {"name": "P8Watch"},
-            {"name": "P22Watch"},
+            {"name": "P8watch"},
+            {"name": "P22watch"},
             {"name": "nrf51bare"},
             {"name": "Generic nRF51822"},
             {"name": "Generic nRF52823"},
@@ -34,7 +34,8 @@
             {"name": "nRF52 DK"},
             {"name": "Nordic Beacon Kit"},
             {"name": "TinyBLE"},
-            {"name": "Waveshare BLE400"}
+            {"name": "ATCwatch_Pinout"}
+            {"name": "DSD6"}
           ],
           "toolsDependencies": [
             {
