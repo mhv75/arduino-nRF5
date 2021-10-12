@@ -18,7 +18,7 @@
             "online": "https://github.com/mhv75/arduino-nRF5_ATCwatch/issues"
           },
           "url": "https://github.com/mhv75/arduino-nRF5_ATCwatch/archive/refs/tags/ATCboards_0.1.0.zip",
-          "archiveFileName": "arduino-nRF5_ATCwatch-ATCboards_0.1.0.tar.gz",
+          "archiveFileName": "arduino-nRF5_ATCwatch-ATCboards_0.1.0.zip",
           "checksum": "MD5:e09a2b8aa68f082ed7460bfacb5928ab",
           "size": "768600", 
           "boards": [
