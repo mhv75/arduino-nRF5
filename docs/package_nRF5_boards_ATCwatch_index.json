@@ -17,10 +17,10 @@
           "help": {
             "online": "https://github.com/mhv75/arduino-nRF5_ATCwatch/issues"
           },
-          "url": "https://github.com/mhv75/arduino-nRF5_ATCwatch/archive/refs/tags/ATCwatch_boards_0.1.0.tar.gz",
-          "archiveFileName": "arduino-nRF5_ATCwatch-ATCwatch_boards_0.1.0.tar.gz",
-          "checksum": "MD5:f99873a67ed3918422c1adc99bc48e00",
-          "size": "573355", 
+          "url": "https://github.com/mhv75/arduino-nRF5_ATCwatch/archive/refs/tags/ATCboards_0.1.0.zip",
+          "archiveFileName": "arduino-nRF5_ATCwatch-ATCboards_0.1.0.tar.gz",
+          "checksum": "MD5:e09a2b8aa68f082ed7460bfacb5928ab",
+          "size": "768600", 
           "boards": [
             {"name": "DSD6"},
             {"name": "P8watch"},
