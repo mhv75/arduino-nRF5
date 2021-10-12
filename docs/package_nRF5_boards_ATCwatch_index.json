@@ -33,7 +33,7 @@
             {"name": "nRF52 DK"},
             {"name": "Nordic Beacon Kit"},
             {"name": "TinyBLE"},
-            {"name": "ATCwatch_Pinout"}
+            {"name": "ATCwatch_Pinout"},
             {"name": "DaPinout"}
           ],
           "toolsDependencies": [
