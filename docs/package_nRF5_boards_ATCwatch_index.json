@@ -4,12 +4,11 @@
       "name": "nRF5_ATCwatch",
       "maintainer": "mhv75",
       "websiteURL": "https://github.com/mhv75/arduino-nRF5_ATCwatch",
-      "email": "Arduino.nrf5.ATCwatch@gmail.com",
+      "email": "arduino.nrf5.atcwatch@gmail.com",
       "help": {
         "online": "https://github.com/mhv75/arduino-nRF5_ATCwatch/issues"
       },
-      "platforms": [
-       
+      "platforms": [   
         {
           "name": "ATCwatch NRF5 boards",
           "architecture": "nRF5",
@@ -35,7 +34,7 @@
             {"name": "Nordic Beacon Kit"},
             {"name": "TinyBLE"},
             {"name": "ATCwatch_Pinout"}
-            {"name": "DSD6"}
+            {"name": "DaPinout"}
           ],
           "toolsDependencies": [
             {
@@ -49,7 +48,7 @@
               "version": "0.10.0-dev.nrf5"
             }
           ]
-        },
+        }
       ],
       "tools":[
         {
