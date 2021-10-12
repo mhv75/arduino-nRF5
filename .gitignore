@@ -9,13 +9,7 @@ extras/ide-tools/bin
 extras/ide-tools/nRF5FlashSoftDevice.jar
 .vscode/*
 
-# archive
-archive
-
-#releases
-releases
-
 #docs
-docs
+docs/*.html
 
 
