@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/mhv75/arduino-nRF5_ATCwatch/blob/e695b3c7fe2e87716a6e5309504b8c63384966e1/archive/arduino-nRF5_ATCwatch-0.1.0.zip",
           "archiveFileName": "arduino-nRF5_ATCwatch-0.1.0.zip",
-          "checksum": "MD5:c27141aba7e9829d63f5016bfa8057cf",
-          "size": "743223",
+          "checksum": "MD5:7f312bbc9af342d74a8d8ca13f610610",
+          "size": "132698", 
           "boards": [
             {"name": "DSD6"},
             {"name": "P8watch"},
